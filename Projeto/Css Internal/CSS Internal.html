@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Internal</title>
+</head>
+<style>
+    /* UM CSS interno fica dentro da tag <style> na área 
+       de <head> de um site */
+   body{ /* Isso aqui se chama SELETOR */
+       background-color: wheat; /* Esse Conjunto aqui
+       se chama propriedade: valor */
+       font:  12pt Arial;
+   }
+
+   h1{
+       background-color: sienna; color: white;
+   }
+   p{
+       color: sienna; /* Dessa Maneira, Todos Os paragrafos
+       recebem essa mesma configuração! fica mais facil */
+   }
+   mark{
+       background-color: brown; color: lightsalmon;
+   }
+   .p1{
+    color: black;
+    text-align: center;
+   }
+</style>
+
+<body>
+    
+    <h1>CSS Internal</h1>
+    <p>Um estilo interno é aquele que fica configurado dentro da área
+        <code>&lt;head&gt;</code> do seu documento</p>
+        <p>A grande <mark> Desvantagem</mark>Dessa técnica em relação 
+            ao modelo <em> Inline</em> é que podemos escrever uma configuração
+            unica para todos os elemntos da mesma familia. Por exm todos os 
+            paragrafos desse documento estão com a mesma configuração de cor e 
+            eu só escrevi isso uma vez.</p>
+
+        <p>A grande <mark> Desvantagem</mark>Dessa técnica em relação 
+            ao uso de um CSS Externo(Veja no proximo) é que o estilo não 
+            pode ser reaproveitado por outras paginas.</p>
+        
+        <p>
+            <strong style="color: darkred;">IMPORTANTE:</strong> Voce pode 
+                misturar CSS inline e CSS internal em um mesmo documento sem problemas! 
+                olha só o codigo fonte dessa pagina no seu navegador
+        </p>
+        
+        <p>Para Volta para a pagina de projetos segue o botão abaixo</p>
+    <a href="/Projeto/projeto.html"><button>Clique aqui</button></a>
+
+    <footer>
+    <p class="p1">Todos os direitos reservados a &copy; Gabryel Jesus</p>
+    </footer>
+
+</body>
+</html>

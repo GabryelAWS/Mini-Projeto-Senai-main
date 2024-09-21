@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+        height: 100vh;
+        background-image: url(https://wallpaperaccess.com/full/2641105.gif);
+        background-color: black;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;
+            
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center; /* Alinhamento horizontal */
+            vertical-align: middle; /* Alinhamento vertical */
+        }
+
+        .numero {
+            text-align: right;
+        }
+        .p1{
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!--
+        HIERARQUIA DE TABELAS (simples)
+        TABLE = tabela
+            TABLE ROW = linha de tabela
+                TABLE HEADER = cabeçalho de tabela
+                TABLE DATA = dado de tabela
+    -->
+    <table>
+        <tr> <!-- Primeira linha -->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr> <!-- Segunda linha -->
+            <td>A2</td>
+            <td>B2</td>
+            <td class="numero">C2</td>
+        </tr>
+        <tr> <!-- Terceira linha -->
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
+        </tr>
+        <tr> <!-- Quarta linha -->
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        
+    </table>
+
+    <h3>tabela Numero2</h3>
+    <a href="/Projeto/Tabela/tabela002.html"><button>Clique Aqui</button></a>
+
+    <p>Ou Para Volta para a pagina de projetos segue o botão abaixo</p>
+    <a href="/Projeto/projeto.html"><button>Clique aqui</button></a>
+
+    <footer>
+    <p class="p1">Todos os direitos reservados a &copy; Gabryel Jesus</p>
+    </footer>
+</body>
+</html>

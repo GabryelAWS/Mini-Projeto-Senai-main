@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/2641105.gif);
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: violet;
+    font-size: 12pt;
+    font-family: arial;
+    /*Tambem é possivel simplificar as duas linhas acima como 
+    font: 12pt Arial; */
+}
+h1{
+    color: rgb(246, 21, 246)
+}
+
+a{
+    /*Configuraçoes para link, remove o sublinhado padrão*/
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    /*cor para link que foi acessado*/
+    color: rgb(58, 1, 88);
+}
+a:hover{
+    /* =Cor para link quando um usuario passar o mouse sobre ele */
+    color: black;
+    text-decoration: underline;
+}
+.p1{
+    color: black;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+        @font-face {
+            font-family: 'minha fonte';
+            src: url('littlebird.ttf');
+        }
+        body{
+             height: 100vh;
+            background-image: url(https://wallpaperaccess.com/full/2641105.gif);
+            background-color: black;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            font-size: 15pt;
+        }
+        h2{
+            font-weight: normal; /*Serve para tirar o negrito dos titulos*/;
+        
+        }
+        h2#padrao{
+            font-family: Arial, Helvetica, sans-serif/*O Navegador vai tentar carregar a primeira se não funcionar, passa pra proxima */;
+        }
+        h2#google{
+            font-family: 'Pacifico',cursive;/*A importação dessa fonte */
+        }
+        h2#local{
+            font-family: 'minha fonte', sans-serif;/*Fonte local importada da linha 9 até 12*/
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body> 
+    <h1>Fonte em CSS</h1>
+    <h2 id="padrão">Podemos Configurar uma fonte padrão do sistema</h2>
+    <h2 id="google">ou então usar uma fonte do google fonts</h2>
+    <h2 id="local">ou ainda usar um arquivo local de fontes </h2>
+
+    <p>Para Volta para a pagina de projetos segue o botão abaixo</p>
+    <a href="/Projeto/projeto.html"><button>Clique aqui</button></a>
+    
+    <footer>
+        <p>Todos os direitos reservados a &copy; Gabryel Jesus</p>
+    </footer>
+
+</body>
+</html>
